@@ -13,7 +13,7 @@ export DEPLOY_QT=1
 export QT_DIR=qt4
 
 # Deploy dependencies
-quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
+quick-sharun ./AppDir/bin/*
 
 # Additional changes can be done in between here
 
