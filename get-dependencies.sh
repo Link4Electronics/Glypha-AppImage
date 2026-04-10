@@ -32,5 +32,5 @@ echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 cd ./Glypha
-make qt -j$(nproc)
+make qt -j$(nproc) ARGS="-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
 mv -v "build/Glypha III" ../AppDir/bin
