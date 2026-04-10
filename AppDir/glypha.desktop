@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Glypha III
+Exec=Glypha
+Icon=glypha
+StartupWMClass=Glypha III
+Comment=Modern port of Classic Mac OS game
+Type=Application
+Terminal=false
+Categories=Game;
