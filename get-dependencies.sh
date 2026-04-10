@@ -18,7 +18,7 @@ get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
 make-aur-package gtk2
-make-aur-package qt4
+PRE_BUILD_CMDS="export CXXFLAGS=\"\$CXXFLAGS -fpermissive\"" make-aur-package qt4
 
 # If the application needs to be manually built that has to be done down here
 echo "Making nightly build of Glypha..."
