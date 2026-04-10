@@ -29,5 +29,4 @@ git rev-parse --short HEAD > ~/version
 mkdir -p ./AppDir/bin
 cd ./Glypha
 make qt -j$(nproc)
-cd build && ls
-mv -v ../AppDir/bin
+mv -v "build/Glypha III" ../AppDir/bin
