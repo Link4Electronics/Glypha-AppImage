@@ -8,7 +8,7 @@ export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export DESKTOP=DUMMY
-export MAIN_BIN=
+export MAIN_BIN=Glypha III
 export DEPLOY_QT=1
 export QT_DIR=qt4
 
