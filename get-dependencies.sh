@@ -27,5 +27,5 @@ git clone https://github.com/kainjow/Glypha ./Glypha
 git rev-parse --short HEAD > ~/version
 cd ./Glypha
 make qt -j$(nproc)
-ls
+cd build && ls
 mv -v
