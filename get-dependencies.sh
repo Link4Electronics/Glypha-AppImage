@@ -7,6 +7,7 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
+    cmake           \
     cups            \
     mariadb-libs    \
     postgresql-libs \
