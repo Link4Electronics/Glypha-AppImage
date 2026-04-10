@@ -25,7 +25,9 @@ echo "Making nightly build of Glypha..."
 echo "---------------------------------------------------------------"
 git clone https://github.com/kainjow/Glypha ./Glypha
 git rev-parse --short HEAD > ~/version
+
+mkdir -p ./AppDir/bin
 cd ./Glypha
 make qt -j$(nproc)
 cd build && ls
-mv -v
+mv -v ../AppDir/bin
