@@ -16,11 +16,10 @@ get-debloated-pkgs --add-common --prefer-nano
 make-aur-package qt4
 
 # If the application needs to be manually built that has to be done down here
-
-# if you also have to make nightly releases check for DEVEL_RELEASE = 1
-#
-# if [ "${DEVEL_RELEASE-}" = 1 ]; then
-# 	nightly build steps
-# else
-# 	regular build steps
-# fi
+echo "Making nightly build of Glypha..."
+echo "---------------------------------------------------------------"
+git clone https://github.com/kainjow/Glypha ./Glypha
+git rev-parse --short HEAD > ~/version
+cd ./Glypha
+make qt
+ls
