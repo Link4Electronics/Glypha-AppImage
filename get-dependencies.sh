@@ -24,8 +24,10 @@ make-aur-package qt4
 # If the application needs to be manually built that has to be done down here
 echo "Making nightly build of Glypha..."
 echo "---------------------------------------------------------------"
-git clone https://github.com/kainjow/Glypha.git ./Glypha
-git rev-parse --short HEAD > ~/version
+REPO="https://github.com/kainjow/Glypha"
+VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
+git clone "$REPO" ./Glypha
+echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 cd ./Glypha
