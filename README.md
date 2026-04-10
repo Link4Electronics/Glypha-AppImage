@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Glypha-AppImage)](https://github.com/pkgforge-dev/Glypha-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://raw.githubusercontent.com/Link4Electronics/Glypha-AppImage/refs/heads/main/AppDir/glypha.png" width="128" />
 </p>
 
 
